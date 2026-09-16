@@ -6,4 +6,7 @@ for i in range(8):
     turtle.right(135)
 
 
+turtle.end_fill()
+
+
 
