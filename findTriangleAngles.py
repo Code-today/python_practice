@@ -3,7 +3,7 @@ import math
 
 
 def calculate_angle(a, b, c):
-    # Using the Law of Cosines to calculate the angle opposite side c
+    # Using the Law of Cosines to calculate the angle A,B, and C
     angle_C = math.degrees(math.acos((a**2 + b**2 - c**2) / (2 * a * b)))
     return angle_C
     angle_B = math.degrees(math.acos((a**2 + c**2 - b**2) / (2 * a * c)))
